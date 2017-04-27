@@ -1,0 +1,21 @@
+
+@CHARSET "UTF-8";
+body{
+	padding-top: 70px;
+	padding-bottom :100px
+}
+p{
+	font-family: 'Open Sans', sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Oswald', sans-serif;
+}
+.jumbotron
+{
+	background-image:url(https://lh3.googleusercontent.com/mXq2ifwpbth3xyZ698hfMkVYGEO_9euygRX9gSIMGMELSUWYPTSwak7XmULWFRnQs_s9=w300);
+	
+	
+	
+	
+	
+}
