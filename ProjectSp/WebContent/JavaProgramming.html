@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Java Programming</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+	<link href="Physics.css" type="text/css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+</head>
+<body>
+<div class="container">
+    <br>
+	<div class="well">
+		<h2 class="text-divider text-center"><span>Java Programming</span></h2>
+		
+		<p>
+		Java Platform, Enterprise Edition or Java EE is a widely used computing platform for development and deployment of enterprise software (network and web services).[1] Java EE was formerly known as Java 2 Platform, Enterprise Edition or J2EE.
+
+The platform uses the object-oriented Java programming language. It is part of the Java software-platform family. Java EE extends the Java Platform, Standard Edition (Java SE),[2] providing an API for object-relational mapping, distributed and multitier architectures, and web services. The platform incorporates a design based largely on modular components running on an application server. The platform emphasizes convention over configuration[3] and annotations for configuration. Optionally XML can be used to override annotations or to deviate from the platform defaults.
+
+Java EE is developed under the Java Community Process.
+		</p>
+		
+		<p>
+		Java EE is defined by its specification. As with other Java Community Process specifications, providers must meet certain conformance requirements in order to declare their products as Java EE compliant.
+
+Java EE includes several API specifications, such as RMI, e-mail, JMS, web services, XML, etc., and defines how to coordinate them. Java EE also features some specifications unique to Java EE for components. These include Enterprise JavaBeans, connectors, servlets, JavaServer Pages and several web service technologies. This allows developers to create enterprise applications that are portable and scalable, and that integrate with legacy technologies. A Java EE application server can handle transactions, security, scalability, concurrency and management of the components it is deploying, in order to enable developers to concentrate more on the business logic of the components rather than on infrastructure and integration tasks.
+		</p>
+		
+		<p>
+		javax/servlet
+The servlet specification defines a set of APIs to service mainly HTTP requests. It includes the JavaServer Pages (JSP) specification.
+		</p>
+		
+		<p>
+		javax/websocket
+The Java API for WebSocket specification defines a set of APIs to service WebSocket connections.
+		</p>
+		<p>
+		avax/faces
+This package defines the root of the JavaServer Faces (JSF) API. JSF is a technology for constructing user interfaces out of components
+		</p>
+		<p>
+		javax/faces/component
+This package defines the component part of the JavaServer Faces API. Since JSF is primarily component oriented, this is one of the core packages. The package overview contains a UML diagram of the component hierarchy.
+		</p>
+		<p>
+		javax/el
+This package defines the classes and interfaces for Java EE's Expression Language. The Expression Language (EL) is a simple language originally designed to satisfy the specific needs of web application developers. It is used specifically in JSF to bind components to (backing) beans and in CDI to name beans, but can be used throughout the entire platform.
+		</p>
+		<p>
+		javax/enterprise/inject
+These packages define the injection annotations for the Contexts and Dependency Injection (CDI) APIs
+		</p>
+		<p>
+		javax/ejb
+The Enterprise JavaBean (EJB) specification defines a set of lightweight APIs that an object container (the EJB container) will support in order to provide transactions (using JTA), remote procedure calls (using RMI or RMI-IIOP), concurrency control, dependency injection and access control for business objects. This package contains the Enterprise JavaBeans classes and interfaces that define the contracts between the enterprise bean and its clients and between the enterprise bean and the ejb container.
+		</p>
+		<p>
+		javax/validation
+This package contains the annotations and interfaces for the declarative validation support offered by the Bean Validation API. Bean Validation provides a unified way to provide constraints on beans (e.g. JPA model classes) that can be enforced cross-layer. In Java EE, JPA honors bean validation constraints in the persistence layer, while JSF does so in the view layer.
+		</p>
+		<p>
+		javax/transaction
+This package provides the Java Transaction API (JTA) that contains the interfaces and annotations to interact with the transaction support offered by Java EE. Even though this API abstracts from the really low-level details, the interfaces are also considered somewhat low-level and the average application developer in Java EE is either assumed to be relying on transparent handling of transactions by the higher level EJB abstractions, or using the annotations provided by this API in combination with CDI managed beans.
+		</p>
+		<p>
+		javax/security/auth/message
+This package provides the core of the Java Authentication SPI (JASPIC) that contains the interfaces and classes to build authentication modules for secure Java EE applications. Authentication modules are responsible for the interaction dialog with a user (e.g. redirecting to a Form or to an OpenID provider), verifying the user's input (e.g. by doing an LDAP lookup, database query or contacting the OpenID provider with a token) and retrieving a set of groups/roles that the authenticated user is in or has (e.g. by again doing an LDAP lookup or database query).
+		</p>
+		<p>
+		javax/enterprise/concurrent
+This package provides the interfaces for interacting directly with Java EE's platform default managed thread pool. A higher-level executor service working on this same thread pool can be used optionally. The same interfaces can be used for user-defined managed thread pools, but this relies on vendor specific configuration and is not covered by the Java EE specification.
+		</p>
+		<p>
+		javax/jms
+This package defines the Java Message Service (JMS) API. The JMS API provides a common way for Java programs to create, send, receive and read an enterprise messaging system's messages.
+		</p>
+		<p>
+		javax/batch/api
+This package defines the entry AP for Java EE Batch Applications. The Batch Applications API provides the means to run long running background tasks that possibly involve a large volume of data and which may need to be periodically executed.
+		</p>
+		<p>
+		javax/resource
+This package defines the Java EE Connector Architecture (JCA) API. Java EE Connector Architecture (JCA) is a Java-based technology solution for connecting application servers and enterprise information systems (EIS) as part of enterprise application integration (EAI) solutions. This is a low-level API aimed at vendors that the average application developer typically does not come in contact with.
+		</p>
+		
+		</div>
+	</div>
+	<div class ="jumbotron text-center">
+			
+			<button type ="button" class="btn btn-primary btn-md" data-toggle="modal" data-target="uploadModal">Upload Project</button>
+
+</div>
+
+<div class="modal fade" id="uploadModal" tabindex="-1" role = "dialog" aria-hidden="true">
+	<div class ="modal-dialog">
+		<div class = "modal-content">
+			<div class ="modal-header">
+				<button type="button" class="close" data-dismiss ="modal">&times;</button>
+				<h4 class= "modal-title"> Upload Project</h4>
+			</div>
+			<div class ="modal-body">
+				<form action="#" method ="POST" enctype ="multipart/form-data">
+					<div class = "form-group">
+						
+						<label for ="input">Document</label>
+						<input type ="file">
+					</div>
+					<input type = "submit" value = "Submit">
+				</form>
+			</div>
+		</div>
+	</div>
+
+</div>
+
+</body>
+</html>
