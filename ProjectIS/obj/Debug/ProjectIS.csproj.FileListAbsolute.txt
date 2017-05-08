@@ -100,3 +100,5 @@ C:\Users\Alex\documents\visual studio 2017\Projects\ProjectIS\ProjectIS\obj\Debu
 C:\Users\Alex\documents\visual studio 2017\Projects\ProjectIS\ProjectIS\obj\Debug\ProjectIS.Migrations.AddLastName.resources
 C:\Users\Dee\Documents\facultate\ANUL 3\Sem II\Proiect CS\SE-master\SE-master\ProjectIS\obj\Debug\ProjectIS.dll
 C:\Users\Dee\Documents\facultate\ANUL 3\Sem II\Proiect CS\SE-master\SE-master\ProjectIS\obj\Debug\ProjectIS.pdb
+D:\Facultate\AnIII-semII\SE-Project\GIT\ProjectIS\obj\Debug\ProjectIS.dll
+D:\Facultate\AnIII-semII\SE-Project\GIT\ProjectIS\obj\Debug\ProjectIS.pdb
